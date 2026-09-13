@@ -10,7 +10,7 @@ task.spawn(function()
                     desc.HoldDuration = 0
                     desc.RequiresLineOfSight = false
                 else
-                    desc.HoldDuration = 4
+                    desc.HoldDuration = 2
                 end
             end
         end
@@ -23,7 +23,7 @@ Workspace.DescendantAdded:Connect(function(desc)
             desc.HoldDuration = 0
             desc.RequiresLineOfSight = false
         else
-            desc.HoldDuration = 4
+            desc.HoldDuration = 2
         end
     end
 end)
